@@ -5,6 +5,8 @@ The extension displays a list of Open Source Projects on Github that were create
 Check out the Firefox add-on repo here:  
 https://github.com/nishanthvijayan/GithubLatestProjects-Firefox/  
 
+##Screenshot
+![Extension Panel](http://i.imgur.com/X5b2qOG.png)
 ## Download  
 GithubLatestProjects is  available for download at:
 - Firefox: https://addons.mozilla.org/en-US/firefox/addon/github-latest/
