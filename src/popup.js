@@ -133,7 +133,8 @@ $(document).ready(function(){
 
   $("body").on('click',".loading", function(){
     src = $('.loading').attr('src');
-    if(src=="refresh-white.png") fetchdata();
+    console.log(src);
+    if(src=="img/refresh-white.png") fetchdata();
   });
 
 });
