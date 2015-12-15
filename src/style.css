@@ -1,99 +1,117 @@
 * {
-  margin:0;
+  margin: 0;
   margin: 0;
 }
 
 body {
   background-color: #ffffff;
+
   /*font: Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";*/
   min-width: 400px;
 }
 
-header{
+header {
   background-color: #333;
   height: 40px;
-  color : #ffffff;
+  color: #ffffff;
   width: 100%;
-  top:0%;
+  top: 0%;
   padding-top: 10px;
   text-align: center;
-  font-size: 21px;font-weight: 500;
+  font-size: 21px;
+  font-weight: 500;
 }
-header > h3{
+
+header > h3 {
   display: inline-block;
 }
-li > h5{
+
+li > h5 {
   display: inline-block;
 }
+
 li {
-    list-style-type:none;
-    padding: 15px;
-    display: block;
-    color: #333;
-    font-size: 16px;
+  list-style-type: none;
+  padding: 15px;
+  display: block;
+  color: #333;
+  font-size: 16px;
 }
-li:hover{
+
+li:hover {
   background-color: #f9f9f9;
 }
 
 hr {
-    border: none;
-    width: 100%;
-    height: 1px;
-    color: #e5e5e5;
-    background-color: #e5e5e5;
+  border: none;
+  width: 100%;
+  height: 1px;
+  color: #e5e5e5;
+  background-color: #e5e5e5;
 }
-.name{
+
+.name {
   color: #4183C4;
   font-size: 18px;
   font-weight: 200;
 }
-.name:hover{
+
+.name:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.repoName{
+
+.repoName {
   font-weight: bold;
 }
-.language{
+
+.language {
   font-weight: 400;
 }
-.desc{
+
+.desc {
   font-weight: 400;
 }
-.stars{
+
+.stars {
   font-weight: 400;
-  color : #707070;
+  color: #707070;
 }
-footer{
+
+footer {
   padding: 18px;
   background-color: #f9f9f9;
   text-align: center;
 }
-footer > a{
+
+footer > a {
   color: #4183C4;
   cursor: pointer;
   font-size: normal;
   font-weight: 600;
 }
-footer > a:hover{
+
+footer > a:hover {
   text-decoration: underline;
 }
-.loading{
+
+.loading {
   position: absolute;
   left: 90%;
   height: 20px;
   width: 20px;
   cursor: pointer;
 }
-.settings-btn{
+
+.settings-btn {
   position: absolute;
   left: 80%;
   height: 20px;
   width: 20px;
   cursor: pointer;
 }
-.gh-btn{
+
+.gh-btn {
   position: absolute;
   left: 5%;
   height: 30px;
